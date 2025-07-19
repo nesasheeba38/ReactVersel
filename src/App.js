@@ -30,7 +30,7 @@ function App() {
    <Route path="/" element={<UserName/>}></Route>
    <Route path="/UserDepartment"element={<UserDepartment/>}></Route>
    <Route path="/UserLocation" element={<UserLocation/>}></Route>
-   <Route path="/Summary" element={<Summary/>}></Route>  */}
+   <Route path="/Summary" element={<Summary/>}></Route>*/}
    </Routes>
    </BrowserRouter>
    </div>
