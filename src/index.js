@@ -1,19 +1,29 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// import App from './App';
-// import{Products}  from './Products';
 import reportWebVitals from './reportWebVitals';
+
+
+// import { ThemeApp } from './JotaiTheme/ThemeApp';
+// import { ToDoApp } from './To-Do_List/ToDoApp';
+
+// import App from './App';
+
+// import{Products}  from './Products';
 // import {AccountSummary} from './BankAccountDashboard/AccountSummary';
-import {Navigationbar} from './Navbar/Navigationbar'
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import {Navigationbar} from './Navbar/Navigationbar'
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    
+   
+    {/* <ToDoApp/> */}
+    {/* <ThemeApp/> */}
     {/* <App /> */}
     {/* <Products/> */}
     {/* <AccountSummary/> */}
-    <Navigationbar/>
+    {/* <Navigationbar/> */}
   </React.StrictMode> 
 );
 // If you want to start measuring performance in your app, pass a function
